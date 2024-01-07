@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#taskForm {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+#taskForm input,
+#taskForm textarea,
+#taskForm button {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+
+}
+
+.task {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px black;
+}
+
+#taskAdd:hover {
+    background-color: grey;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+
+.completeTaskButton {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+.completeTaskButton:hover {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}

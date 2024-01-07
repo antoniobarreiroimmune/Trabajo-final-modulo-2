@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url('fonts/Pokemon\ Solid.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+body {
+
+    font-family: 'Pokemon';
+    src: url('fonts/Pokemon\ Solid.ttf');
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin: 20px;
+}
+
+#searchInput {
+    font-family: 'Pokemon';
+    src: url('fonts/Pokemon\ Solid.ttf');
+    font-style: normal;
+    font-weight: normal;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#chartContainer {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.btn {
+    font-family: 'Pokemon';
+    src: url('fonts/Pokemon\ Solid.ttf');
+    font-style: normal;
+    font-weight: normal;
+    background-color: transparent;
+    border-radius: 20px;
+}
